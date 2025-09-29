@@ -2,7 +2,7 @@ import math
 
 import pytest
 
-from defensive_programming.examples.operations import (
+from examples.operations import (
     add,
     divide,
     InvalidOperandError,

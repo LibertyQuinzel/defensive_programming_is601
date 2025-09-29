@@ -175,6 +175,3 @@ PYTHONPATH=. pytest -q defensive_programming/tests/test_decorators.py
 Final checks before submitting
 - Run the autograder to produce the JSON result used by CI: `python defensive_programming/autograder.py` (then inspect `defensive_programming/autograder_result.json`)
 - Run style checks: `flake8 defensive_programming --max-line-length=100`
-
-
-

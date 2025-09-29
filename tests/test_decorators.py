@@ -2,7 +2,7 @@ import math
 
 import pytest
 
-from defensive_programming.examples.decorators import pre, post, ContractError
+from examples.decorators import pre, post, ContractError
 
 
 @pre(

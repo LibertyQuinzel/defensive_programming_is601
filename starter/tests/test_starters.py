@@ -1,6 +1,6 @@
 """Smoke tests for starter code to help beginners verify local changes quickly."""
 
-from defensive_programming.starter._import_paths import add_starter_path, import_starter
+from starter._import_paths import add_starter_path, import_starter
 
 
 def test_starter_00_greet():
