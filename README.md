@@ -76,3 +76,100 @@ Student checklist (copy this to work from):
 10. Push and open a PR — CI runs flake8, pytest, and the autograder on push/PR.
 
 
+Per-topic step-by-step workflow (follow in order for each assignment)
+
+Assignment 00 — Intro
+- Read: `defensive_programming/assignments/00-intro.md`
+- Starter script: `defensive_programming/starter/00-intro/starter.py`
+- Starter notebook: `defensive_programming/starter/00-intro/intro.ipynb`
+- Skeleton (student file, if present): `defensive_programming/skeletons/00-intro/skeleton.py`
+- Starter smoke test: `defensive_programming/starter/tests/test_starters.py::test_starter_00_greet`
+
+Commands (example):
+```bash
+# Run the starter smoke test for the intro
+PYTHONPATH=. pytest -q defensive_programming/starter/tests/test_starters.py::test_starter_00_greet
+```
+
+Assignment 01 — Guard Clauses / Hardening
+- Read: `defensive_programming/assignments/01-hardening.md`
+- Starter script: `defensive_programming/starter/01-guard-clauses/starter.py`
+- Starter notebook: `defensive_programming/starter/01-guard-clauses/guard_clauses.ipynb`
+- Skeleton (student file): `defensive_programming/skeletons/01-guard-clauses/skeleton.py`
+- Quick skeleton sanity tests: `defensive_programming/skeletons/tests/test_quick_skeletons.py::test_skeleton_divide_importable`
+- Assignment tests: `defensive_programming/tests/test_operations_defensive.py`
+
+Commands (example):
+```bash
+# Run the starter smoke test for divide
+PYTHONPATH=. pytest -q defensive_programming/starter/tests/test_starters.py::test_starter_01_divide
+
+# Quick skeleton sanity check
+PYTHONPATH=. pytest -q defensive_programming/skeletons/tests/test_quick_skeletons.py::test_skeleton_divide_importable
+
+# Run the assignment tests
+PYTHONPATH=. pytest -q defensive_programming/tests/test_operations_defensive.py
+```
+
+Assignment 02 — Sentinels
+- Read: `defensive_programming/assignments/02-sentinels.md`
+- Starter script: `defensive_programming/starter/02-sentinels/starter.py`
+- Starter notebook: `defensive_programming/starter/02-sentinels/sentinels.ipynb`
+- Skeleton (student file): `defensive_programming/skeletons/02-sentinels/skeleton.py`
+- Quick skeleton sanity tests: `defensive_programming/skeletons/tests/test_quick_skeletons.py::test_skeleton_choose_value_exists`
+- Assignment tests: `defensive_programming/tests/test_sentinel.py`
+
+Commands (example):
+```bash
+# Starter smoke test
+PYTHONPATH=. pytest -q defensive_programming/starter/tests/test_starters.py::test_starter_02_choose_value
+
+# Quick skeleton sanity check
+PYTHONPATH=. pytest -q defensive_programming/skeletons/tests/test_quick_skeletons.py::test_skeleton_choose_value_exists
+
+# Run the sentinel tests
+PYTHONPATH=. pytest -q defensive_programming/tests/test_sentinel.py
+```
+
+Assignment 03 — Design by Contract
+- Read: `defensive_programming/assignments/03-design-by-contract.md`
+- Starter script: `defensive_programming/starter/03-design-by-contract/starter.py`
+- Starter notebook: `defensive_programming/starter/03-design-by-contract/design_by_contract.ipynb`
+- Skeleton (student file): `defensive_programming/skeletons/03-design-by-contract/skeleton.py`
+- Quick skeleton sanity tests: `defensive_programming/skeletons/tests/test_quick_skeletons.py::test_skeleton_reciprocal_exists`
+- Assignment tests: `defensive_programming/tests/test_contracts.py`
+
+Commands (example):
+```bash
+# Starter smoke test for reciprocal
+PYTHONPATH=. pytest -q defensive_programming/starter/tests/test_starters.py::test_starter_03_reciprocal
+
+# Quick skeleton sanity check
+PYTHONPATH=. pytest -q defensive_programming/skeletons/tests/test_quick_skeletons.py::test_skeleton_reciprocal_exists
+
+# Run the contract tests
+PYTHONPATH=. pytest -q defensive_programming/tests/test_contracts.py
+```
+
+Assignment 04 — Decorators
+- Read: `defensive_programming/assignments/04-decorators.md`
+- Starter script: `defensive_programming/starter/04-decorators/starter.py`
+- Starter notebook: `defensive_programming/starter/04-decorators/decorators_intro.ipynb`
+- Skeleton (student file): `defensive_programming/skeletons/04-decorators/skeleton.py`
+- Assignment tests: `defensive_programming/tests/test_decorators.py`
+
+Commands (example):
+```bash
+# Starter smoke test for decorators
+PYTHONPATH=. pytest -q defensive_programming/starter/tests/test_starters.py::test_starter_04_add
+
+# Run decorator tests
+PYTHONPATH=. pytest -q defensive_programming/tests/test_decorators.py
+```
+
+Final checks before submitting
+- Run the autograder to produce the JSON result used by CI: `python defensive_programming/autograder.py` (then inspect `defensive_programming/autograder_result.json`)
+- Run style checks: `flake8 defensive_programming --max-line-length=100`
+
+
+
