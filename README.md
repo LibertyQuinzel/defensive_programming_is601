@@ -95,7 +95,7 @@ PYTHONPATH=. pytest -q defensive_programming/starter/tests/test_starters.py::tes
 Assignment 01   Guard Clauses / Hardening
 - Read: [assignments/01-hardening.md](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/assignments/01-hardening.md)
 - Starter script: [starter/01-guard-clauses/starter.py](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/starter/01-guard-clauses/starter.py)
-- Starter notebook: [starter/01-guard-clauses/guard_clauses.ipynb](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/starter/01-guard-clauses/guard_clauses.ipynb)
+- Starter notebook: [starter/01-guard-clauses/guard_clauses.ipynb](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/starter/01-guard-clauses/guard_clauses_intro.ipynb)
 - Skeleton (student file): [skeletons/01-guard-clauses/skeleton.py](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/skeletons/01-guard-clauses/skeleton.py)
 - Quick skeleton sanity tests: [skeletons/tests/test_quick_skeletons.py](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/skeletons/tests/test_quick_skeletons.py) :: test_skeleton_divide_importable
 - Assignment tests: [tests/test_operations_defensive.py](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/tests/test_operations_defensive.py)
@@ -116,7 +116,7 @@ PYTHONPATH=. pytest -q defensive_programming/tests/test_operations_defensive.py
 Assignment 02   Sentinels
 - Read: [assignments/02-sentinels.md](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/assignments/02-sentinels.md)
 - Starter script: [starter/02-sentinels/starter.py](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/starter/02-sentinels/starter.py)
-- Starter notebook: [starter/02-sentinels/sentinels.ipynb](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/starter/02-sentinels/sentinels.ipynb)
+- Starter notebook: [starter/02-sentinels/sentinels.ipynb](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/starter/02-sentinels/sentinels_intro.ipynb)
 - Skeleton (student file): [skeletons/02-sentinels/skeleton.py](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/skeletons/02-sentinels/skeleton.py)
 - Quick skeleton sanity tests: [skeletons/tests/test_quick_skeletons.py](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/skeletons/tests/test_quick_skeletons.py) :: test_skeleton_choose_value_exists
 - Assignment tests: [tests/test_sentinel.py](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/tests/test_sentinel.py)
@@ -137,7 +137,7 @@ PYTHONPATH=. pytest -q defensive_programming/tests/test_sentinel.py
 Assignment 03   Design by Contract
 - Read: [assignments/03-design-by-contract.md](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/assignments/03-design-by-contract.md)
 - Starter script: [starter/03-design-by-contract/starter.py](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/starter/03-design-by-contract/starter.py)
-- Starter notebook: [starter/03-design-by-contract/design_by_contract.ipynb](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/starter/03-design-by-contract/design_by_contract.ipynb)
+- Starter notebook: [starter/03-design-by-contract/design_by_contract.ipynb](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/starter/03-design-by-contract/design_by_contract_intro.ipynb)
 - Skeleton (student file): [skeletons/03-design-by-contract/skeleton.py](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/skeletons/03-design-by-contract/skeleton.py)
 - Quick skeleton sanity tests: [skeletons/tests/test_quick_skeletons.py](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/skeletons/tests/test_quick_skeletons.py) :: test_skeleton_reciprocal_exists
 - Assignment tests: [tests/test_contracts.py](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/tests/test_contracts.py)
