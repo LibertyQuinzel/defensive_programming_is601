@@ -1,4 +1,4 @@
-from defensive_programming.examples.sentinel_examples import (
+from examples.sentinel_examples import (
     SENTINEL,
     find_in_list,
     get_required,

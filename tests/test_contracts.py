@@ -2,7 +2,7 @@ import math
 
 import pytest
 
-from defensive_programming.examples.contracts import reciprocal, ContractError
+from examples.contracts import reciprocal, ContractError
 
 
 def test_reciprocal_happy_path():
