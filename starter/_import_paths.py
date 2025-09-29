@@ -23,5 +23,5 @@ def import_starter(folder_name: str):
     import runpy
 
     repo_root = Path(__file__).resolve().parents[2]
-    starter_file = repo_root / "defensive_programming" / "starter" / folder_name / "starter.py"
+    starter_file = repo_root / "defensive_programming_is601" / "starter" / folder_name / "starter.py"
     return runpy.run_path(str(starter_file))
