@@ -78,7 +78,7 @@ Student checklist (copy this to work from):
 
 Per-topic step-by-step workflow (follow in order for each assignment)
 
-Assignment 00   Intro
+Assignment 00 Intro
 - Read: [assignments/00-intro.md](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/assignments/00-intro.md)
 - Starter script: [starter/00-intro/starter.py](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/starter/00-intro/starter.py)
 - Starter notebook: [starter/00-intro/intro.ipynb](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/starter/00-intro/intro.ipynb)
