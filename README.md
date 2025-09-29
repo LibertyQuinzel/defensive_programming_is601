@@ -84,7 +84,7 @@ Assignment 00   Intro
 - Starter notebook: [starter/00-intro/intro.ipynb](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/starter/00-intro/intro.ipynb)
 - Skeleton (student file, if present): [skeletons/00-intro/skeleton.py](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/skeletons/00-intro/skeleton.py)
 - Starter smoke test: [starter/tests/test_starters.py](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/starter/tests/test_starters.py) :: test_starter_00_greet
-- Examples: [examples/index.md](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/examples/index.md)  overview of instructor examples and quick commands
+- Examples: [examples/index.md](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/examples/index.md) overview of instructor examples and quick commands
 
 Commands (example):
 ```bash
@@ -99,7 +99,7 @@ Assignment 01 Guard Clauses / Hardening
 - Skeleton (student file): [skeletons/01-guard-clauses/skeleton.py](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/skeletons/01-guard-clauses/skeleton.py)
 - Quick skeleton sanity tests: [skeletons/tests/test_quick_skeletons.py](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/skeletons/tests/test_quick_skeletons.py) :: test_skeleton_divide_importable
 - Assignment tests: [tests/test_operations_defensive.py](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/tests/test_operations_defensive.py)
-- Examples: [examples/operations.py](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/examples/operations.py)  sample add/divide/multiply functions and validation
+- Examples: [examples/operations.py](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/examples/operations.py) sample add/divide/multiply functions and validation
 
 Commands (example):
 ```bash
@@ -120,7 +120,7 @@ Assignment 02 Sentinels
 - Skeleton (student file): [skeletons/02-sentinels/skeleton.py](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/skeletons/02-sentinels/skeleton.py)
 - Quick skeleton sanity tests: [skeletons/tests/test_quick_skeletons.py](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/skeletons/tests/test_quick_skeletons.py) :: test_skeleton_choose_value_exists
 - Assignment tests: [tests/test_sentinel.py](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/tests/test_sentinel.py)
-- Examples: [examples/sentinel_examples.py](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/examples/sentinel_examples.py)  sentinel vs exception usage examples
+- Examples: [examples/sentinel_examples.py](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/examples/sentinel_examples.py) sentinel vs exception usage examples
 
 Commands (example):
 ```bash
@@ -141,7 +141,7 @@ Assignment 03 Design by Contract
 - Skeleton (student file): [skeletons/03-design-by-contract/skeleton.py](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/skeletons/03-design-by-contract/skeleton.py)
 - Quick skeleton sanity tests: [skeletons/tests/test_quick_skeletons.py](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/skeletons/tests/test_quick_skeletons.py) :: test_skeleton_reciprocal_exists
 - Assignment tests: [tests/test_contracts.py](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/tests/test_contracts.py)
-- Examples: [examples/contracts.py](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/examples/contracts.py)  pre/post decorator examples and `reciprocal`
+- Examples: [examples/contracts.py](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/examples/contracts.py) pre/post decorator examples and `reciprocal`
 
 Commands (example):
 ```bash
