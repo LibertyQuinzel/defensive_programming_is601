@@ -78,12 +78,13 @@ Student checklist (copy this to work from):
 
 Per-topic step-by-step workflow (follow in order for each assignment)
 
-Assignment 00 — Intro
-- Read: `defensive_programming/assignments/00-intro.md`
-- Starter script: `defensive_programming/starter/00-intro/starter.py`
-- Starter notebook: `defensive_programming/starter/00-intro/intro.ipynb`
-- Skeleton (student file, if present): `defensive_programming/skeletons/00-intro/skeleton.py`
-- Starter smoke test: `defensive_programming/starter/tests/test_starters.py::test_starter_00_greet`
+Assignment 00  Intro
+- Read: [defensive_programming/assignments/00-intro.md](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/defensive_programming/assignments/00-intro.md)
+- Starter script: [defensive_programming/starter/00-intro/starter.py](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/defensive_programming/starter/00-intro/starter.py)
+- Starter notebook: [defensive_programming/starter/00-intro/intro.ipynb](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/defensive_programming/starter/00-intro/intro.ipynb)
+- Skeleton (student file, if present): [defensive_programming/skeletons/00-intro/skeleton.py](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/defensive_programming/skeletons/00-intro/skeleton.py)
+- Starter smoke test: [defensive_programming/starter/tests/test_starters.py](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/defensive_programming/starter/tests/test_starters.py) :: test_starter_00_greet
+- Examples: [examples/index.md](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/examples/index.md) — overview of instructor examples and quick commands
 
 Commands (example):
 ```bash
@@ -91,13 +92,14 @@ Commands (example):
 PYTHONPATH=. pytest -q defensive_programming/starter/tests/test_starters.py::test_starter_00_greet
 ```
 
-Assignment 01 — Guard Clauses / Hardening
-- Read: `defensive_programming/assignments/01-hardening.md`
-- Starter script: `defensive_programming/starter/01-guard-clauses/starter.py`
-- Starter notebook: `defensive_programming/starter/01-guard-clauses/guard_clauses.ipynb`
-- Skeleton (student file): `defensive_programming/skeletons/01-guard-clauses/skeleton.py`
-- Quick skeleton sanity tests: `defensive_programming/skeletons/tests/test_quick_skeletons.py::test_skeleton_divide_importable`
-- Assignment tests: `defensive_programming/tests/test_operations_defensive.py`
+Assignment 01  Guard Clauses / Hardening
+- Read: [defensive_programming/assignments/01-hardening.md](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/defensive_programming/assignments/01-hardening.md)
+- Starter script: [defensive_programming/starter/01-guard-clauses/starter.py](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/defensive_programming/starter/01-guard-clauses/starter.py)
+- Starter notebook: [defensive_programming/starter/01-guard-clauses/guard_clauses.ipynb](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/defensive_programming/starter/01-guard-clauses/guard_clauses.ipynb)
+- Skeleton (student file): [defensive_programming/skeletons/01-guard-clauses/skeleton.py](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/defensive_programming/skeletons/01-guard-clauses/skeleton.py)
+- Quick skeleton sanity tests: [defensive_programming/skeletons/tests/test_quick_skeletons.py](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/defensive_programming/skeletons/tests/test_quick_skeletons.py) :: test_skeleton_divide_importable
+- Assignment tests: [defensive_programming/tests/test_operations_defensive.py](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/defensive_programming/tests/test_operations_defensive.py)
+- Examples: [examples/operations.py](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/examples/operations.py) — sample add/divide/multiply functions and validation
 
 Commands (example):
 ```bash
@@ -111,13 +113,14 @@ PYTHONPATH=. pytest -q defensive_programming/skeletons/tests/test_quick_skeleton
 PYTHONPATH=. pytest -q defensive_programming/tests/test_operations_defensive.py
 ```
 
-Assignment 02 — Sentinels
-- Read: `defensive_programming/assignments/02-sentinels.md`
-- Starter script: `defensive_programming/starter/02-sentinels/starter.py`
-- Starter notebook: `defensive_programming/starter/02-sentinels/sentinels.ipynb`
-- Skeleton (student file): `defensive_programming/skeletons/02-sentinels/skeleton.py`
-- Quick skeleton sanity tests: `defensive_programming/skeletons/tests/test_quick_skeletons.py::test_skeleton_choose_value_exists`
-- Assignment tests: `defensive_programming/tests/test_sentinel.py`
+Assignment 02  Sentinels
+- Read: [defensive_programming/assignments/02-sentinels.md](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/defensive_programming/assignments/02-sentinels.md)
+- Starter script: [defensive_programming/starter/02-sentinels/starter.py](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/defensive_programming/starter/02-sentinels/starter.py)
+- Starter notebook: [defensive_programming/starter/02-sentinels/sentinels.ipynb](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/defensive_programming/starter/02-sentinels/sentinels.ipynb)
+- Skeleton (student file): [defensive_programming/skeletons/02-sentinels/skeleton.py](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/defensive_programming/skeletons/02-sentinels/skeleton.py)
+- Quick skeleton sanity tests: [defensive_programming/skeletons/tests/test_quick_skeletons.py](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/defensive_programming/skeletons/tests/test_quick_skeletons.py) :: test_skeleton_choose_value_exists
+- Assignment tests: [defensive_programming/tests/test_sentinel.py](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/defensive_programming/tests/test_sentinel.py)
+- Examples: [examples/sentinel_examples.py](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/examples/sentinel_examples.py) — sentinel vs exception usage examples
 
 Commands (example):
 ```bash
@@ -131,13 +134,14 @@ PYTHONPATH=. pytest -q defensive_programming/skeletons/tests/test_quick_skeleton
 PYTHONPATH=. pytest -q defensive_programming/tests/test_sentinel.py
 ```
 
-Assignment 03 — Design by Contract
-- Read: `defensive_programming/assignments/03-design-by-contract.md`
-- Starter script: `defensive_programming/starter/03-design-by-contract/starter.py`
-- Starter notebook: `defensive_programming/starter/03-design-by-contract/design_by_contract.ipynb`
-- Skeleton (student file): `defensive_programming/skeletons/03-design-by-contract/skeleton.py`
-- Quick skeleton sanity tests: `defensive_programming/skeletons/tests/test_quick_skeletons.py::test_skeleton_reciprocal_exists`
-- Assignment tests: `defensive_programming/tests/test_contracts.py`
+Assignment 03  Design by Contract
+- Read: [defensive_programming/assignments/03-design-by-contract.md](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/defensive_programming/assignments/03-design-by-contract.md)
+- Starter script: [defensive_programming/starter/03-design-by-contract/starter.py](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/defensive_programming/starter/03-design-by-contract/starter.py)
+- Starter notebook: [defensive_programming/starter/03-design-by-contract/design_by_contract.ipynb](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/defensive_programming/starter/03-design-by-contract/design_by_contract.ipynb)
+- Skeleton (student file): [defensive_programming/skeletons/03-design-by-contract/skeleton.py](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/defensive_programming/skeletons/03-design-by-contract/skeleton.py)
+- Quick skeleton sanity tests: [defensive_programming/skeletons/tests/test_quick_skeletons.py](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/defensive_programming/skeletons/tests/test_quick_skeletons.py) :: test_skeleton_reciprocal_exists
+- Assignment tests: [defensive_programming/tests/test_contracts.py](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/defensive_programming/tests/test_contracts.py)
+- Examples: [examples/contracts.py](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/examples/contracts.py) — pre/post decorator examples and `reciprocal`
 
 Commands (example):
 ```bash
@@ -151,12 +155,13 @@ PYTHONPATH=. pytest -q defensive_programming/skeletons/tests/test_quick_skeleton
 PYTHONPATH=. pytest -q defensive_programming/tests/test_contracts.py
 ```
 
-Assignment 04 — Decorators
-- Read: `defensive_programming/assignments/04-decorators.md`
-- Starter script: `defensive_programming/starter/04-decorators/starter.py`
-- Starter notebook: `defensive_programming/starter/04-decorators/decorators_intro.ipynb`
-- Skeleton (student file): `defensive_programming/skeletons/04-decorators/skeleton.py`
-- Assignment tests: `defensive_programming/tests/test_decorators.py`
+Assignment 04  Decorators
+- Read: [defensive_programming/assignments/04-decorators.md](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/defensive_programming/assignments/04-decorators.md)
+- Starter script: [defensive_programming/starter/04-decorators/starter.py](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/defensive_programming/starter/04-decorators/starter.py)
+- Starter notebook: [defensive_programming/starter/04-decorators/decorators_intro.ipynb](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/defensive_programming/starter/04-decorators/decorators_intro.ipynb)
+- Skeleton (student file): [defensive_programming/skeletons/04-decorators/skeleton.py](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/defensive_programming/skeletons/04-decorators/skeleton.py)
+- Assignment tests: [defensive_programming/tests/test_decorators.py](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/defensive_programming/tests/test_decorators.py)
+- Examples: [examples/decorators.py](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/examples/decorators.py) — decorator helpers that preserve metadata and validate args/kwargs
 
 Commands (example):
 ```bash
