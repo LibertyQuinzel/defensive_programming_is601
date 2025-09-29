@@ -161,7 +161,7 @@ Assignment 04 Decorators
 - Starter notebook: [starter/04-decorators/decorators_intro.ipynb](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/starter/04-decorators/decorators_intro.ipynb)
 - Skeleton (student file): [skeletons/04-decorators/skeleton.py](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/skeletons/04-decorators/skeleton.py)
 - Assignment tests: [tests/test_decorators.py](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/tests/test_decorators.py)
-- Examples: [examples/decorators.py](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/examples/decorators.py)  decorator helpers that preserve metadata and validate args/kwargs
+- Examples: [examples/decorators.py](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/examples/decorators.py) decorator helpers that preserve metadata and validate args/kwargs
 
 Commands (example):
 ```bash
