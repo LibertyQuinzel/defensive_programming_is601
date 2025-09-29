@@ -92,7 +92,7 @@ Commands (example):
 PYTHONPATH=. pytest -q defensive_programming/starter/tests/test_starters.py::test_starter_00_greet
 ```
 
-Assignment 01   Guard Clauses / Hardening
+Assignment 01 Guard Clauses / Hardening
 - Read: [assignments/01-hardening.md](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/assignments/01-hardening.md)
 - Starter script: [starter/01-guard-clauses/starter.py](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/starter/01-guard-clauses/starter.py)
 - Starter notebook: [starter/01-guard-clauses/guard_clauses.ipynb](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/starter/01-guard-clauses/guard_clauses_intro.ipynb)
@@ -113,7 +113,7 @@ PYTHONPATH=. pytest -q defensive_programming/skeletons/tests/test_quick_skeleton
 PYTHONPATH=. pytest -q defensive_programming/tests/test_operations_defensive.py
 ```
 
-Assignment 02   Sentinels
+Assignment 02 Sentinels
 - Read: [assignments/02-sentinels.md](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/assignments/02-sentinels.md)
 - Starter script: [starter/02-sentinels/starter.py](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/starter/02-sentinels/starter.py)
 - Starter notebook: [starter/02-sentinels/sentinels.ipynb](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/starter/02-sentinels/sentinels_intro.ipynb)
@@ -134,7 +134,7 @@ PYTHONPATH=. pytest -q defensive_programming/skeletons/tests/test_quick_skeleton
 PYTHONPATH=. pytest -q defensive_programming/tests/test_sentinel.py
 ```
 
-Assignment 03   Design by Contract
+Assignment 03 Design by Contract
 - Read: [assignments/03-design-by-contract.md](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/assignments/03-design-by-contract.md)
 - Starter script: [starter/03-design-by-contract/starter.py](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/starter/03-design-by-contract/starter.py)
 - Starter notebook: [starter/03-design-by-contract/design_by_contract.ipynb](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/starter/03-design-by-contract/design_by_contract_intro.ipynb)
@@ -155,7 +155,7 @@ PYTHONPATH=. pytest -q defensive_programming/skeletons/tests/test_quick_skeleton
 PYTHONPATH=. pytest -q defensive_programming/tests/test_contracts.py
 ```
 
-Assignment 04   Decorators
+Assignment 04 Decorators
 - Read: [assignments/04-decorators.md](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/assignments/04-decorators.md)
 - Starter script: [starter/04-decorators/starter.py](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/starter/04-decorators/starter.py)
 - Starter notebook: [starter/04-decorators/decorators_intro.ipynb](https://github.com/LibertyQuinzel/defensive_programming_is601/blob/main/starter/04-decorators/decorators_intro.ipynb)
